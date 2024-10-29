@@ -1,0 +1,117 @@
+@media screen and (min-width: 768px) and (max-width: 992px) { 
+
+    h1 {
+        font-size: 25px;
+        margin-top: 2rem;
+    }
+
+    main a {
+        min-width: 20vw;
+        font-size: 22px;
+        max-width: 20vw;
+    }
+
+    .wallpaperSL {
+        min-height: 50vh;
+        background-size: 100vw;
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+    }
+    
+    .wallpaperFr {
+        min-height: 50vh;
+        background-size: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .wallpaperDM {
+        background-image: url(../public/images/Danmachi.png);
+        min-height: 50vh;
+        background-size: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .credit {
+        margin: 2rem 0;
+    }
+
+}
+
+@media screen and (min-width: 993px)  {
+
+
+    h1 {
+        font-size: 25px;
+        margin-top: 1.5rem;
+    }
+
+    .menu {
+        margin: 1.5rem 0 0 0;
+    }
+        
+
+    h2 {
+        font-size: 22px;
+        padding: 2rem 0 0.5rem 0;
+    }
+
+    main p {
+        font-size: 10px;
+    }
+
+    main a {
+        min-width: 20vw;
+        font-size: 22px;
+        max-width: 20vw;
+    }
+
+    .logo {
+        min-width: 20vw;
+    }
+
+    .wallpaperSL {
+        background-image: url(../public/images/Solo_Leveling.png);
+        min-height: 65vh;
+        width: 100%;
+        background-size: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .wallpaperFr {
+        background-image: url(../public/images/Frieren.png);
+        min-height: 65vh;
+        background-size: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .wallpaperDM {
+        background-image: url(../public/images/Danmachi.png);
+        min-height: 65vh;
+        background-size: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .credit {
+        margin: 2rem 0;
+    }
+}
